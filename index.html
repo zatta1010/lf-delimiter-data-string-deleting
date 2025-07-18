@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>改行区切りのデータの文字列の削除</title>
+</head>
+<body>
+    <h1>改行区切りのデータの文字列の削除</h1>
+    <p>以下のフォームに文字列を入力し、削除したい文字を指定して「削除」ボタンを押してください。</p>
+    <p>入力された文字列から指定した文字が削除され、結果が表示されます。</p>
+    <textarea id="input" placeholder="処理する文字"></textarea>
+    <p>削除したい文字を改行で区切って入力してください。</p>
+    <textarea id="character-delete" placeholder="削除する文字"></textarea>
+    <button id="deleteButton">削除</button>
+    <p>結果:</p>
+    <p>削除後の文字列が以下に表示されます。</p>
+    <textarea id="result" placeholder="結果" readonly></textarea>
+    <script src="js/script.js"></script>
+</body>
+</html>
